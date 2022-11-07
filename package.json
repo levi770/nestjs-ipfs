@@ -31,8 +31,8 @@
     "url": "https://github.com/mfsoftworks/nestjs-ipfs"
   },
   "peerDependencies": {
-    "@nestjs/common": "^6.0.0",
-    "@nestjs/core": "^6.0.0",
+    "@nestjs/common": "^9.2.0",
+    "@nestjs/core": "^9.2.0",
     "ipfs": "^0.65.0"
   },
   "dependencies": {
