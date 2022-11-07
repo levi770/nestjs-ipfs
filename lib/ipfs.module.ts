@@ -37,7 +37,7 @@ export class IpfsModule {
         return waitForNode
             ? [{
                 provide: IpfsService,
-                useFactory: async (options) => {
+                useFactory: async (options: IPFSModuleOptions) => {
                     const service = new IpfsService(options)
                     await service.getNode();
                     return service;
